@@ -30,6 +30,7 @@
     { "name": "ipify", "category": "data", "auth": "no", "url": "https://www.ipify.org", "example": "https://api.ipify.org?format=json", "description": "极简公网 IP 查询，无频率限制" },
     { "name": "Zippopotam.us", "category": "data", "auth": "no", "url": "https://www.zippopotam.us", "example": "https://api.zippopotam.us/cn/100000", "description": "全球邮编查询行政区划，支持中国邮编" },
     { "name": "节假日 API（Timor）", "category": "life", "auth": "no", "url": "https://timor.tech/api/holiday", "example": "https://timor.tech/api/holiday/year/2026", "description": "中国法定节假日/调休查询，国内开发者常用" },
+    { "name": "Bucketlist.nl 每日体验灵感", "category": "life", "auth": "no", "url": "https://bucketlist.nl/brand/droom-van-de-dag.openapi.json", "example": "https://bucketlist.nl/api/droom-van-de-dag?lang=nl", "description": "免费返回每日一条旅行或生活体验灵感，含图片和来源链接；无需注册或 Key，默认荷兰语。", "note": "未公布数值配额，无 SLA；尚未验证中国大陆访问。目录条目的 CC0 不代表 API 内容或图片采用开放许可。" },
     { "name": "is.gd 短链接", "category": "life", "auth": "no", "url": "https://is.gd/apishorteningreference.php", "example": "https://is.gd/create.php?format=json&url=https://example.com", "description": "免费短网址生成，接口简单稳定" },
     { "name": "QR Server 二维码", "category": "media", "auth": "no", "url": "https://goqr.me/api", "example": "https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=Hello", "description": "在线生成二维码图片，支持自定义尺寸、颜色、容错率" },
     { "name": "Dog CEO API", "category": "media", "auth": "no", "url": "https://dog.ceo/dog-api", "example": "https://dog.ceo/api/breeds/image/random", "description": "随机狗狗图片，按品种筛选，两万张图库" },
